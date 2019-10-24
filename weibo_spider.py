@@ -5,4 +5,6 @@
 # @email : yanmiexingkong@gmail.com
 # @File  : weibo_spider.py
 
+from scrapy import cmdline
 
+cmdline.execute('scrapy crawl weibo'.split())
